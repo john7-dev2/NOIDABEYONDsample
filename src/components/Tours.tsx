@@ -3,12 +3,12 @@ import { Compass, Users, Clock, Calendar } from 'lucide-react';
 export default function Tours() {
   const tours = [
     {
-      name: 'Spiritual Noida Tour',
+      name: 'Spiritual City Tour',
       image: 'https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=800',
       duration: '6 hours',
       groupSize: 'Up to 15',
-      price: '₹1,299',
-      highlights: ['ISKCON Temple', 'Akshardham visit', 'Traditional lunch', 'Spiritual guide'],
+      price: '$49',
+      highlights: ['Sacred Temple', 'Heritage site visit', 'Traditional lunch', 'Spiritual guide'],
       gradient: 'from-orange-500/20 to-red-500/20',
     },
     {
@@ -16,8 +16,8 @@ export default function Tours() {
       image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
       duration: '5 hours',
       groupSize: 'Up to 12',
-      price: '₹999',
-      highlights: ['Street food tour', '8+ local delicacies', 'Sector 18 market', 'Food expert guide'],
+      price: '$39',
+      highlights: ['Street food tour', '8+ local delicacies', 'Central market', 'Food expert guide'],
       gradient: 'from-green-500/20 to-emerald-500/20',
     },
     {
@@ -25,17 +25,17 @@ export default function Tours() {
       image: 'https://images.pexels.com/photos/1029243/pexels-photo-1029243.jpeg?auto=compress&cs=tinysrgb&w=800',
       duration: '8 hours',
       groupSize: 'Up to 20',
-      price: '₹1,599',
+      price: '$59',
       highlights: ['Bird sanctuary', 'Botanical garden', 'Photography session', 'Packed lunch'],
       gradient: 'from-teal-500/20 to-cyan-500/20',
     },
     {
-      name: 'Modern Noida Experience',
+      name: 'Modern City Experience',
       image: 'https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=800',
       duration: '7 hours',
       groupSize: 'Up to 15',
-      price: '₹1,499',
-      highlights: ['Film City tour', 'Mall shopping', 'Metro ride', 'Fine dining'],
+      price: '$55',
+      highlights: ['Entertainment district', 'Mall shopping', 'Public transit tour', 'Fine dining'],
       gradient: 'from-blue-500/20 to-purple-500/20',
     },
   ];
@@ -55,7 +55,7 @@ export default function Tours() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-12 md:mb-16">
           {tours.map((tour, index) => (
             <div
               key={index}
@@ -105,7 +105,7 @@ export default function Tours() {
                     <div className="text-2xl font-bold text-yellow-400">{tour.price}</div>
                     <div className="text-xs text-gray-500">per person</div>
                   </div>
-                  <button className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
+                  <button className="px-5 sm:px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 touch-manipulation">
                     Book Now
                   </button>
                 </div>

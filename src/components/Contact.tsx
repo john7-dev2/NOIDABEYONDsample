@@ -22,7 +22,7 @@ export default function Contact() {
               <h3 className="text-2xl font-bold mb-6">Get Connected</h3>
               <div className="space-y-4">
                 <a
-                  href="mailto:hello@noidabeyond.com"
+                  href="mailto:contact@example.com"
                   className="group flex items-center space-x-4 p-4 bg-white/5 backdrop-blur border border-white/10 rounded-lg hover:border-yellow-400/50 hover:bg-white/10 transition-all duration-300"
                 >
                   <div className="w-12 h-12 bg-yellow-400/10 rounded-lg flex items-center justify-center group-hover:bg-yellow-400/20 transition-colors">
@@ -30,7 +30,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Email</div>
-                    <div className="text-gray-400 text-sm">hello@noidabeyond.com</div>
+                    <div className="text-gray-400 text-sm">contact@example.com</div>
                   </div>
                 </a>
 
@@ -48,7 +48,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://instagram.com/noidabeyond"
+                  href="https://instagram.com/sampleapp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center space-x-4 p-4 bg-white/5 backdrop-blur border border-white/10 rounded-lg hover:border-yellow-400/50 hover:bg-white/10 transition-all duration-300"
@@ -58,7 +58,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Instagram</div>
-                    <div className="text-gray-400 text-sm">@noidabeyond</div>
+                    <div className="text-gray-400 text-sm">@sampleapp</div>
                   </div>
                 </a>
 
@@ -142,7 +142,7 @@ export default function Contact() {
         <div className="mt-16 text-center">
           <div className="inline-flex items-center space-x-2 text-gray-400">
             <MapPin size={20} className="text-yellow-400" />
-            <span>Serving Noida, Greater Noida, and GreNo West</span>
+            <span>Serving your city and surrounding areas</span>
           </div>
         </div>
       </div>

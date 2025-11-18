@@ -14,19 +14,19 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center">
-                <span className="text-black font-bold text-lg">NB</span>
+                <span className="text-black font-bold text-lg">CT</span>
               </div>
               <span className="text-2xl font-bold tracking-tight">
-                NOIDA<span className="text-yellow-400">BEYOND</span>
+                CITY<span className="text-yellow-400">TOURS</span>
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
               Your ultimate travel companion for discovering the best places, tours, and experiences
-              in Noida, Greater Noida, and beyond.
+              in your city and beyond.
             </p>
             <div className="flex items-center space-x-4">
               <a
-                href="https://instagram.com/noidabeyond"
+                href="https://instagram.com/sampleapp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 backdrop-blur rounded-lg flex items-center justify-center hover:bg-pink-500 transition-all duration-300"
@@ -46,7 +46,7 @@ export default function Footer() {
                 <Send size={20} />
               </a>
               <a
-                href="mailto:hello@noidabeyond.com"
+                href="mailto:contact@example.com"
                 className="w-10 h-10 bg-white/10 backdrop-blur rounded-lg flex items-center justify-center hover:bg-yellow-400 hover:text-black transition-all duration-300"
               >
                 <Mail size={20} />
@@ -75,7 +75,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            © 2024 NoidaBeyond. All rights reserved.
+            © 2024 CityTours. All rights reserved.
           </p>
           <div className="flex items-center space-x-6 text-sm">
             <a href="#" className="text-gray-500 hover:text-yellow-400 transition-colors">
